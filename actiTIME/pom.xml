@@ -1,37 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.vctc</groupId>
-  <artifactId>ecommerce-amazon</artifactId>
+  <artifactId>actiTIME</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
-        </plugin>
-        
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
-          <configuration>
-            <!-- put your configurations here -->
-          </configuration>
-        </plugin>
-        
-      </plugins>
-    </pluginManagement>
-    
-    
-    
-    
-  </build>
-  
-  <name>AMAZON</name>
-  
+  <name>actitime</name>
   <description>home</description>
   
   <dependencies>
@@ -64,29 +36,19 @@
                             <version>5.0.0</version>
               </dependency>
               
-              <!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery -->
+              <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.1.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery -->
 <dependency>
     <groupId>org.webjars.bower</groupId>
     <artifactId>jquery</artifactId>
     <version>3.6.0</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-
-               <dependency>
-               
-                             <groupId>org.testng</groupId>
-                             <artifactId>testng</artifactId>
-                             <version>7.0.0</version>
-                             <scope>test</scope>
-               </dependency>
-
-              
-              <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>3.1.5</version>
 </dependency>
               
   
